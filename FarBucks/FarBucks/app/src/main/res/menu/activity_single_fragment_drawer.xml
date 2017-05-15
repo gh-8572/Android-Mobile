@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_local_cafe_black_24dp"
+            android:title="Home"/>
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/ic_pin_drop_black_24dp"
+            android:title="Locations"/>
+        <item
+            android:id="@+id/nav_menu"
+            android:icon="@drawable/ic_local_dining_black_24dp"
+            android:title="Menus"/>
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/ic_trending_flat_black_24dp"
+            android:title="Orders"/>
+    </group>
+
+
+
+</menu>

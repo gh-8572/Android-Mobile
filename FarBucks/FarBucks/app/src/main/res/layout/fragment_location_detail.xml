@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <com.google.android.gms.maps.MapView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/farbucks_mapview"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="71dp"
+            android:layout_height="71dp"
+            android:id="@+id/mmthumbnail"
+            android:layout_alignParentLeft="true"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="farbucks_name_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/farbucks_name_textview"/>
+
+
+            <TextView
+                android:text="address_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/address_textview" />
+
+            <TextView
+                android:text="city_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/city_textview" />
+
+            <TextView
+                android:text="state_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/state_textview" />
+
+            <TextView
+                android:text="zip_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/zip_textview" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
